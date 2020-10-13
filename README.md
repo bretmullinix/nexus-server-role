@@ -24,10 +24,12 @@ Requirements
     1. You will need an Amazon AWS account and permission to create a new EC2 instance to run the
        molecule test.
        
-    1. If you plan on running the **molecule** scenario, you must perform the following in the **roles** directory:
+    1. If you plan on running the **molecule** scenario, you must perform the following in the 
+       **roles/nexus-server-role** directory:
     
-        1. Create the **files** directory
         1. cd **files**
+        1. Make the directory **private\_keys**
+        1. cd **private\_keys**
         1. Create a file with the same name as your AWS private key name.  The file must have no extension.
         1. Add the AWS private key to the file created in the previous step. 
 
