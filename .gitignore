@@ -1,0 +1,13 @@
+.activate_rc
+*.retry
+my_key
+virtual_environments/
+virtual_environment/
+private_keys/
+my_keypair
+ec2_facts/
+vault_secret
+.idea/
+.travis.yml
+.yamllint
+*.tar.gz
