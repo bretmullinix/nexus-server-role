@@ -49,7 +49,7 @@ Role Variables
     1. **open\_nexus\_ports** --> The list of ports to open for clients to use the Nexus Server.
     1. **nexus\_software\_sha1\_checksum** --> The original checksum of the Nexus Server software included with this
        role.  If you would like to replace the software with another version, please follow the instructions
-       [here](https://github.com/bretmullinix/openshift-idm-cluster-on-aws/tree/master/part6-install-nexus/readme#change-nexus-software).
+       [here](https://github.com/bretmullinix/openshift-idm-cluster-on-aws/blob/master/part6-install-nexus/readme.md#change-nexus-software).
     1. **nexus\_file\_name** --> The downloaded Sonatype Nexus software file name.
     1. **nexus\_file** --> The full file name of the downloaded Sonatype Nexus software including the extension.
     
