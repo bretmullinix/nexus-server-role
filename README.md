@@ -54,7 +54,7 @@ Role Variables
        
     1. **nexus\_jetty\_keystore\_password** --> The SSL Java keystore password.  The Java keystore
        is used by the Nexus Jetty server to run Nexus using SSL.  The password is encrypted with
-       ansible\_vault
+       ansible\_vault.
         
 1. **vars/main.yml** variables:
 
